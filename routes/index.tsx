@@ -29,6 +29,9 @@ loadIcons([
   "logos:mariadb-icon",
   "skill-icons:cassandra-light",
   "skill-icons:docker",
+  "carbon:energy-renewable",
+  "ic:baseline-wordpress",
+  "ic:baseline-business"
 ]);
 
 function Hero() {
@@ -38,14 +41,14 @@ function Hero() {
         <h1 class="text-4xl font-bold text-primary">
           <TypingAnimation
             strings={[
-              '"Hello, World!"',
-              "I'm a developer.",
+              'Nolan Daigle',
+              "Web Developer",
             ]}
             autoStart={true}
           />
         </h1>
         <p class="text-xl mt-4">
-          I build web applications and websites using modern technologies.
+          Building modern and accessible web applications and websites.
         </p>
       </div>
       <SpinningModel />
@@ -62,21 +65,21 @@ interface Value {
 function Values() {
   const values: Value[] = [
     {
-      title: "Passion for Continuous Learning",
+      title: "Performance-Driven Development",
       description:
-        "I actively seek out new technologies and stay up-to-date with industry trends.",
-      image: "/img/pexels-pixabay-159711.webp",
+        "I focus on optimizing performance to deliver fast, scalable, and efficient web solutions.",
+      image: "/img/circuit.jfif",
     },
     {
-      title: "User-Centric Approach",
+      title: "Adaptability Across Technologies",
       description:
-        "My goal is to create user-friendly applications that solve real-world problems.",
-      image: "/img/pexels-picjumbo-com-55570-196644.webp",
+        "I am skilled in multiple frameworks and languages, allowing me to choose the best tools for each project.",
+      image: "/img/toolbox.webp",
     },
     {
-      title: "Collaboration and Communication",
+      title: "Web Accessibility & Integration",
       description:
-        "I excel in team environments and communicate effectively with stakeholders.",
+        "I am proficient in ensuring WCAG compliance, delivering accessible and efficient web applications.",
       image: "/img/pexels-fauxels-3184418.webp",
     },
   ];
@@ -119,16 +122,22 @@ interface Experience {
 function Experience() {
   const experiences: Experience[] = [
     {
-      title: "Full Stack Web Developer",
-      company: "AST Advanced Sales Technologies GmbH",
-      timePeriod: "Sep 2023 - Apr 2024",
-      location: "Vienna, Austria",
+      title: "Back End Web Developer",
+      company: "Learnewable",
+      timePeriod: "Nov 2023 - June 2024",
+      location: "Portland, Oregon",
     },
     {
-      title: "Junior Web Developer",
-      company: "AST Advanced Sales Technologies GmbH",
-      timePeriod: "Feb 2023 - Sep 2023",
-      location: "Vienna, Austria",
+      title: "Full Stack Web Developer",
+      company: "Anderson Business Advisors",
+      timePeriod: "March 2022 - Nov 2023",
+      location: "Las Vegas, Nevada",
+    },
+    {
+      title: "Full Stack Web Developer",
+      company: "Growth Dynamics",
+      timePeriod: "Mar 2021 - Mar 2022",
+      location: "Eugene, Oregon",
     },
   ];
 
@@ -194,20 +203,20 @@ interface Project {
 function Projects() {
   const projects: Project[] = [
     {
-      title: "Denoland Fresh",
+      title: "Learnewable",
       description:
-        "Fresh is a full stack modern web framework for JavaScript and TypeScript developers.",
+        "Engineered back-end infrastructure using Laravel and implemented AI-driven data analysis solutions.",
       link: "https://fresh.deno.dev/",
-      type: "Open Source",
-      icon: "logos:deno",
+      type: "Client",
+      icon: "carbon:energy-renewable",
     },
     {
-      title: "Dogr.",
+      title: "Anderson Business Advisors",
       description:
-        "Dogr is a web application I developed to hone my skills in Nuxt and Vue.",
+        "Developed client portal and company intranet using WordPress for content management, Vue.js for dynamic interfaces, and Salesforce for seamless  data management.",
       link: "https://dogr.vercel.app/",
-      type: "Personal",
-      icon: "logos:vue",
+      type: "Client",
+      icon: "ic:baseline-business",
     },
   ];
 
@@ -236,7 +245,7 @@ function Projects() {
                 target="_blank"
                 class="btn btn-primary text-base-100"
               >
-                View Project
+                View Site
               </a>
             </div>
           </div>
@@ -252,21 +261,15 @@ function Technologies() {
     "logos:html-5",
     "logos:css-3",
     "logos:php",
+    "ic:baseline-wordpress",
     "logos:typescript-icon",
-    "skill-icons:react-dark",
     "logos:vue",
-    "devicon:nextjs",
-    "skill-icons:nuxtjs-dark",
-    "logos:nestjs",
     "logos:fresh",
     "skill-icons:laravel-dark",
     "skill-icons:tailwindcss-dark",
     "logos:deno",
     "devicon:nodejs",
-    "vscode-icons:file-type-mongo",
-    "logos:postgresql",
     "logos:mariadb-icon",
-    "skill-icons:cassandra-light",
     "skill-icons:docker",
   ];
 

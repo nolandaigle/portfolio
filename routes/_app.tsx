@@ -60,35 +60,17 @@ function MetaTags(
 export default function App({ Component }: PageProps) {
   const socials = [
     {
-      name: "GitHub",
-      url: "https://github.com/michael-pfister/deno-portfolio",
-      icon: "fa-brands:github",
-    },
-    {
-      name: "Twitter",
-      url: "https://twitter.com/ScaredToCompile",
-      icon: "fa-brands:twitter",
-    },
-    {
       name: "LinkedIn",
-      url: "https://www.linkedin.com/in/michael-pascal-pfister",
+      url: "https://www.linkedin.com/in/nolan-d-5727321aa/",
       icon: "fa-brands:linkedin",
     },
   ];
-
-  const credentials = {
-    name: "John Doe",
-  };
-
-  const url = "https://opensource-portfolio.deno.dev/";
 
   return (
     <html lang="en">
       <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <MetaTags credentials={credentials} url={url} />
-        <title>Developer Portfolio | {credentials.name}</title>
         <link rel="stylesheet" href="/styles.css" />
       </head>
       <body class="min-h-screen flex flex-col max-w-screen-xl mx-auto">
@@ -100,7 +82,7 @@ export default function App({ Component }: PageProps) {
         </main>
         <footer class="mt-auto footer w-auto m-2 p-4 bg-neutral text-neutral-content rounded-lg">
           <aside>
-            <span>MIT licensed with ❤️ by Michael</span>
+            {/* <span>MIT licensed with ❤️ by Michael</span> */}
             <span>
               3D Art by{" "}
               <a
