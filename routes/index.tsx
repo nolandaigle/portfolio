@@ -206,7 +206,7 @@ function Projects() {
       title: "Learnewable",
       description:
         "Engineered back-end infrastructure using Laravel and implemented AI-driven data analysis solutions.",
-      link: "https://fresh.deno.dev/",
+      link: "https://learnewable.com/",
       type: "Client",
       icon: "carbon:energy-renewable",
     },
@@ -214,7 +214,7 @@ function Projects() {
       title: "Anderson Business Advisors",
       description:
         "Developed client portal and company intranet using WordPress for content management, Vue.js for dynamic interfaces, and Salesforce for seamless  data management.",
-      link: "https://dogr.vercel.app/",
+      link: "https://andersonadvisors.com/",
       type: "Client",
       icon: "ic:baseline-business",
     },
