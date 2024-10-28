@@ -31,7 +31,8 @@ loadIcons([
   "skill-icons:docker",
   "carbon:energy-renewable",
   "ic:baseline-wordpress",
-  "ic:baseline-business"
+  "ic:baseline-business",
+  "radix-icons:accessibility"
 ]);
 
 function Hero() {
@@ -203,18 +204,18 @@ interface Project {
 function Projects() {
   const projects: Project[] = [
     {
-      title: "Learnewable",
+      title: "Max Access",
       description:
-        "Engineered back-end infrastructure using Laravel and implemented AI-driven data analysis solutions.",
-      link: "https://learnewable.com/",
+        "A WordPress plugin designed to assist web developers with WCAG compliance, developed in PHP.",
+      link: "https://wordpress.org/plugins/accessibility-toolbar",
       type: "Client",
-      icon: "carbon:energy-renewable",
+      icon: "radix-icons:accessibility",
     },
     {
-      title: "Anderson Business Advisors",
+      title: "Limelight Theme",
       description:
-        "Developed client portal and company intranet using WordPress for content management, Vue.js for dynamic interfaces, and Salesforce for seamless  data management.",
-      link: "https://andersonadvisors.com/",
+        "A WCAG compliant custom WordPress theme, developed using PHP, JavaScript, and HTML/CSS",
+      link: "https://limelightdept.com/articles/limelight-departments-new-ada-wcag-compliant-wordpress-theme/",
       type: "Client",
       icon: "ic:baseline-business",
     },
